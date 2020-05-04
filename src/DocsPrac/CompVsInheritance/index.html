@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Practice</title>
+    <style>
+        html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.SplitPane {
+  width: 100%;
+  height: 100%;
+}
+
+.SplitPane-left {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.SplitPane-right {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.Contacts {
+  width: 100%;
+  height: 100%; 
+  background: lightblue;
+}
+
+.Chat {
+  width: 100%;
+  height: 100%; 
+  background: pink;
+}
+
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <!-- Change main.js name to match component -->
+    <!-- <script src="../../../DocsPrac/CompVsInheritance/main.js"></script> -->
+    <script src="../../../DocsPrac/CompVsInheritance/compClass.js"></script>
+</body>
+</html>
